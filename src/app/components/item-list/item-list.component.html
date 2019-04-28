@@ -1,21 +1,21 @@
-<div class="container">
-  <div class="row">
-    <div class="col margenes-categorias d-flex">
-      <h4 class="categorias font-color-gris">
-        {{ searchResult.category.path }}
-      </h4>
+<div class="container-fluid d-flex justify-content-center background-color">
+  <div class="col-10">
+    <div class="row">
+      <div class="col my-category">
+        <h4 class="category font-color-gray">
+          {{ searchResult.category.path }}
+        </h4>
+      </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="col">
-      <div class="col-general list-cont">
-        <div class="row " *ngFor="let item of searchResult.items">
-          <div class="col-12">
-            <div class="margin-side-main-big border-top">
+    <div class="row">
+      <div class="col">
+        <div class="col col-general">
+          <div class="row " *ngFor="let item of searchResult.items">
+            <div class="col">
               <div class="row">
-                <div class="col-2">
-                  <div class="container-img">
+                <div class="col-2 p-0">
+                  <div class="img-fluid m-16">
                     <img routerLink="/items/id/{{item?.id}}" class="cursor-pointer imagenes"
                          src="{{ item?.picture }} "/>
                   </div>

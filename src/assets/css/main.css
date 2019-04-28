@@ -7,34 +7,34 @@ body {
   font-family: 'mlfont', arial !important;
 }
 
-.nav-bar {
-  height: 54px;
-}
+/*.nav-bar {*/
+/*  height: 54px;*/
+/*}*/
 
-.navbar-color {
-  background-color: #FFE600;
-}
+/*.navbar-color {*/
+/*  background-color: #FFE600;*/
+/*}*/
 
-.gris {
-  background-color: #EEEEEE;
-}
+/*.gris {*/
+/*  background-color: #EEEEEE;*/
+/*}*/
 
-.border-none{
-  border-style: none;
-}
+/*.border-none{*/
+/*  border-style: none;*/
+/*}*/
 
-.size-find-button{
-  height: 20px;
-}
+/*.size-find-button{*/
+/*  height: 20px;*/
+/*}*/
 
-.logo{
-  margin-left: 30px;
-}
+/*.logo{*/
+/*  margin-left: 30px;*/
+/*}*/
 
 .imagenes{
   border-radius: 4px;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .list-cont .row:first-child .col-12 .border-top {
@@ -99,22 +99,22 @@ body {
   margin: 32px 16px 16px 16px;
 }
 
-.col-general{
-  background-color: white;
-  border-radius: 4px;
-  margin-bottom:15px;
-}
+/*.col-general{*/
+/*  background-color: white;*/
+/*  border-radius: 4px;*/
+/*  margin-bottom:15px;*/
+/*}*/
 
 .margin-t-32{
   margin-top: 32px
 }
 
-.categorias{
-  font-size: 14px;
-  margin-bottom: 0px;
-}
+/*.categorias{*/
+/*  font-size: 14px;*/
+/*  margin-bottom: 0px;*/
+/*}*/
 
-.font-color-gris{
+.font-color-gray{
   color: #999999;
 }
 
@@ -122,10 +122,10 @@ body {
   color: #333333;
 }
 
-.margenes-categorias{
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
+/*.margenes-categorias{*/
+/*  margin-top: 16px;*/
+/*  margin-bottom: 16px;*/
+/*}*/
 
 .form-control:focus{
   border-color: #cccccc;

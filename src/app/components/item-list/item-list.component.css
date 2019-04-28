@@ -1,0 +1,38 @@
+.background-color {
+  background-color: #EEEEEE;
+}
+
+.my-category {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.category {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.col-general{
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom:16px;
+}
+/*.container-img{*/
+/*  width: 180px;*/
+/*  height: 180px;*/
+/*  display:flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  padding: 25px;*/
+/*  padding-left: 0;*/
+/*}*/
+/*.container-img img {*/
+/*  width:initial !important;*/
+/*  min-width: 80%;*/
+/*  max-width: 100%;*/
+/*  height: auto;*/
+/*}*/
+
+.m-16{
+  margin: 16px;
+}
