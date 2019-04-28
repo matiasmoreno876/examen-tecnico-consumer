@@ -16,7 +16,10 @@ export class ItemListComponent implements OnInit {
 
   ngOnInit() {
     this.itemService.getItems()
-      .subscribe(data => this.searchResult = data);
+      .subscribe(data => {
+        this.searchResult = data;
+        console.log(this.searchResult);
+      });
   }
 
 }

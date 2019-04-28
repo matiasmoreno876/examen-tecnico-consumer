@@ -2,9 +2,9 @@ import {Author} from '../../models/author';
 
 export class AuthorMeliDto {
   name: string;
-  lastName: string;
+  lastname: string;
 
   static convertToDomain(dto: AuthorMeliDto): Author {
-    return new Author(dto.name, dto.lastName);
+    return new Author(dto.name, dto.lastname);
   }
 }

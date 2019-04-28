@@ -24,9 +24,7 @@ export class ItemService {
 
     return this.http.get<ListItemsMeliResponseDto>(url, httpOptions)
       .pipe(map(response => {
-
-
-        return null;
+        return ListItemsMeliResponseDto.convertToDomain(response);
       }));
   }
 }

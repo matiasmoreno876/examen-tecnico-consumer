@@ -1,16 +1,16 @@
 <div class="container">
   <div class="row">
     <div class="col margenes-categorias d-flex">
-<!--      <h4 *ngFor="let category of itemMl.categories" class="categorias font-color-gris">-->
-<!--        {{ category }} > &nbsp;-->
-<!--      </h4>-->
+      <h4 class="categorias font-color-gris">
+        {{ searchResult.category.path }}
+      </h4>
     </div>
   </div>
 
   <div class="row">
     <div class="col">
       <div class="col-general list-cont">
-        <div class="row " *ngFor="let item of items.items">
+        <div class="row " *ngFor="let item of searchResult.items">
           <div class="col-12">
             <div class="margin-side-main-big border-top">
               <div class="row">

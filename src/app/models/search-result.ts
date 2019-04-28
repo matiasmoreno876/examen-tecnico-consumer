@@ -7,4 +7,9 @@ export class SearchResult {
   category: Category;
   items: Item[];
 
+  constructor(author: Author, category: Category, items: Item[]) {
+    this.author = author;
+    this.category = category;
+    this.items = items;
+  }
 }

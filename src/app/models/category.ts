@@ -1,3 +1,9 @@
 export class Category {
-  path: string[];
+  path = '';
+
+  constructor(array: string[]) {
+    array.forEach(val => {
+      this.path += val + ' > ';
+    });
+  }
 }
