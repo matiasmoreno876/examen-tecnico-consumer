@@ -24,7 +24,7 @@
                     <div class="col d-flex align-items-end py-16">
                         <span class="size-price font-color-negro">$ {{ item?.price.amount }}</span>
                         <span class="size-decimal font-color-negro">{{ item?.price.decimals }}</span>
-                        <span class="px-1 mb-12" ng-show="item?.free_shipping">
+                        <span class="px-1 mb-12" *ngIf="item?.freeShipping">
                           <img src="../../../assets/image/ic_shipping.png"/>
                         </span>
                     </div>

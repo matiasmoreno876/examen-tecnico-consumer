@@ -7,7 +7,7 @@ export class ItemMeliDto {
   price: PriceMeliDto;
   picture: string;
   condition: string;
-  freeShipping: boolean;
+  free_shipping: boolean;
 
   static convertListToDomain(dto: ItemMeliDto[]): Item[] {
 
@@ -25,6 +25,6 @@ export class ItemMeliDto {
       PriceMeliDto.convertToDomain(dto.price),
       dto.picture,
       dto.condition,
-      dto.freeShipping);
+      dto.free_shipping);
   }
 }
