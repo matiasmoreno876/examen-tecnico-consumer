@@ -7,56 +7,6 @@ body {
   font-family: 'mlfont', arial !important;
 }
 
-/*.nav-bar {*/
-/*  height: 54px;*/
-/*}*/
-
-/*.navbar-color {*/
-/*  background-color: #FFE600;*/
-/*}*/
-
-/*.gris {*/
-/*  background-color: #EEEEEE;*/
-/*}*/
-
-/*.border-none{*/
-/*  border-style: none;*/
-/*}*/
-
-/*.size-find-button{*/
-/*  height: 20px;*/
-/*}*/
-
-/*.logo{*/
-/*  margin-left: 30px;*/
-/*}*/
-
-/*.imagenes{*/
-/*  border-radius: 4px;*/
-/*  width: 100%;*/
-/*  height: 100%;*/
-/*}*/
-
-/*.list-cont .row:first-child .col-12 .border-top {*/
-/*  border-top: none !Important;*/
-/*}*/
-
-/*.container-img{*/
-/*  width: 180px;*/
-/*  height: 180px;*/
-/*  display:flex;*/
-/*  align-items: center;*/
-/*  justify-content: center;*/
-/*  padding: 25px;*/
-/*  padding-left: 0;*/
-/*}*/
-/*.container-img img {*/
-/*  width:initial !important;*/
-/*  min-width: 80%;*/
-/*  max-width: 100%;*/
-/*  height: auto;*/
-/*}*/
-
 .size-imagen-detail{
   width: 680px;
   margin: auto;
@@ -65,17 +15,8 @@ body {
 .size-title{
   font-size: 18px;
 }
-
-.size-title-detail{
-  font-size: 24px;
-}
-
 .size-price{
   font-size: 24px;
-}
-
-.size-price-detail{
-  font-size: 46px;
 }
 
 .size-decimal{
@@ -87,33 +28,9 @@ body {
   font-size: 20px;
 }
 
-/*.font-city{*/
-/*  font-size: 12px;*/
-/*  font-weight: normal;*/
-/*}*/
-
 .margin-side-main-big {
   margin: 0 16px;
 }
-
-.margenes-row-detail{
-  margin: 32px 16px 16px 16px;
-}
-
-/*.col-general{*/
-/*  background-color: white;*/
-/*  border-radius: 4px;*/
-/*  margin-bottom:15px;*/
-/*}*/
-
-/*.margin-t-32{*/
-/*  margin-top: 32px*/
-/*}*/
-
-/*.categorias{*/
-/*  font-size: 14px;*/
-/*  margin-bottom: 0px;*/
-/*}*/
 
 .font-color-gray{
   color: #999999;
@@ -123,10 +40,6 @@ body {
   color: #333333;
 }
 
-/*.margenes-categorias{*/
-/*  margin-top: 16px;*/
-/*  margin-bottom: 16px;*/
-/*}*/
 
 .form-control:focus{
   border-color: #cccccc;
@@ -140,25 +53,6 @@ button:focus{
 
 .cursor-pointer{
   cursor:pointer;
-}
-
-.font-cantidad{
-  font-size: 14px;
-}
-
-.color-boton-comprar{
-  background-color: #3483FA;
-  border-color: #3483FA;
-  color: white;
-}
-
-.size-title-descripcion{
-  font-size: 28px;
-}
-
-.font-descripcion{
-  font-size: 16px;
-  font-weight: normal;
 }
 
 .margen-b-32{

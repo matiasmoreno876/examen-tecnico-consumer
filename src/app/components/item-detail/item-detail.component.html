@@ -1,3 +1,51 @@
-<p>
-  {{item}}
-</p>
+<div class="container-fluid d-flex justify-content-center background-color">
+  <div class="col-10">
+    <div class="row">
+      <div class="col my-category ">
+        <h4 class="category font-color-gray">
+          {{ category }}
+        </h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="col-general">
+          <div class="row">
+            <div class="col-9">
+              <div class="size-imagen-detail">
+                <img src="{{ item?.picture }}" class="imagenes"/>
+              </div>
+            </div>
+            <div class="col-3 font-color-negro">
+              <div class="py-32 pr-32">
+                <div class="mb-16">
+                  <span class="font-cantidad"> {{ item?.condition }} -&nbsp;</span>
+                  <span class="font-cantidad"> {{ item?.soldQuantity }} vendidos</span>
+                </div>
+                <div>
+                  <span class="size-title-detail"> {{ item?.title }}</span>
+                </div>
+                <div class="py-32">
+                  <span class="size-price-detail">$ {{ item?.price.amount }}</span>
+                  <span ng-show="item?.item.price.decimals != 0 || item?.item.price.decimals != 00 "
+                        class="size-decimal-detail">{{ item?.price.decimals }}</span>
+                </div>
+                <button type="button" class="color-boton-comprar btn btn-block">Comprar</button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <div class="d">
+                <h4 class="font-color-negro size-title-descripcion">Descripci&oacute;n del
+                  producto</h4>
+                <p class="font-color-gray font-descripcion">{{ item?.description }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,76 @@
+.my-category {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.category {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.font-color-gray {
+  color: #999999;
+}
+
+.col-general {
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.background-color {
+  background-color: #EEEEEE;
+}
+
+.imagenes {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+}
+
+.py-32 {
+  padding: 32px 0px 32px 0px;
+}
+
+.font-cantidad {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.size-title-detail {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.pr-32{
+  padding-right: 32px;
+}
+
+.mb-16{
+  margin-bottom: 16px;
+}
+.size-price-detail{
+  font-size: 46px;
+  font-weight: 300;
+}
+
+.size-decimal-detail{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.color-boton-comprar{
+  background-color: #3483FA;
+  border-color: #3483FA;
+  color: white;
+}
+
+.font-descripcion{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.size-title-descripcion{
+  font-size: 28px;
+}
+
