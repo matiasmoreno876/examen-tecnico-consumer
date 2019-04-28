@@ -8,16 +8,8 @@ export class ItemMeliDto {
   picture: string;
   condition: string;
   free_shipping: boolean;
-  city_name: string;
-
-  static convertListToDomain(dto: ItemMeliDto[]): Item[] {
-
-    const listItem: Item[] = dto.map(it => {
-      return this.convertToDomain(it);
-    });
-
-    return listItem;
-  }
+  sold_quantity: number;
+  description: string;
 
   static convertToDomain(dto: ItemMeliDto): Item {
 
@@ -27,6 +19,9 @@ export class ItemMeliDto {
       dto.picture,
       dto.condition,
       dto.free_shipping,
-      dto.city_name);
+      '',
+      dto.sold_quantity,
+      dto.description
+    );
   }
 }

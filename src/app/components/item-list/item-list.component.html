@@ -16,7 +16,7 @@
               <div class="row">
                 <div class="col-2 p-0">
                   <div class="img-fluid m-16">
-                    <img routerLink="/items/id/{{item?.id}}" class="cursor-pointer imagenes"
+                    <img routerLink="/items/{{item?.id}}" class="cursor-pointer imagenes"
                          src="{{ item?.picture }} "/>
                   </div>
                 </div>
@@ -29,11 +29,11 @@
                         </span>
                     </div>
                     <div class="col py-16">
-                      <h5 routerLink="/items/id/{{item?.id}}" class="cursor-pointer size-title">{{ item?.title }}</h5>
+                      <h5 routerLink="/items/{{item?.id}}" class="cursor-pointer size-title">{{ item?.title }}</h5>
                     </div>
                 </div>
                 <div class="col-2">
-                  <h3 class="font-city mt-5 font-color-negro">{{ item?.city_name }} Mendoza</h3>
+                  <h3 class="font-city mt-5 font-color-negro">{{ item?.cityName }}</h3>
                 </div>
               </div>
             </div>
