@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col margenes-categorias d-flex">
+<!--      <h4 *ngFor="let category of itemMl.categories" class="categorias font-color-gris">-->
+<!--        {{ category }} > &nbsp;-->
+<!--      </h4>-->
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="col-general list-cont">
+        <div class="row " *ngFor="let item of items.items">
+          <div class="col-12">
+            <div class="margin-side-main-big border-top">
+              <div class="row">
+                <div class="col-2">
+                  <div class="container-img">
+                    <img routerLink="/items/id/{{item?.id}}" class="cursor-pointer imagenes"
+                         src="{{ item?.picture }} "/>
+                  </div>
+                </div>
+                <div class="col-8">
+                  <div class="d-flex margin-t-32">
+                    <h2 class="size-price font-color-negro">$ {{ item?.price.amount }}</h2>
+                    <h2 class="size-decimal font-color-negro">{{ item?.price.decimals }}</h2>
+                    <div class="px-1" ng-show="item?.free_shipping">
+                      <img src="../../../assets/image/ic_shipping.png"/>
+                    </div>
+                  </div>
+                  <h5 routerLink="/items/id/{{item?.id}}" class="cursor-pointer size-title">{{ item?.title }}</h5>
+                </div>
+                <div class="col-2">
+                  <h3 class="font-city mt-5 font-color-negro">{{ item?.city_name }}</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
