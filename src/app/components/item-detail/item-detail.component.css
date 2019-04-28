@@ -42,35 +42,39 @@
   font-weight: 600;
 }
 
-.pr-32{
+.pr-32 {
   padding-right: 32px;
 }
 
-.mb-16{
+.mb-16 {
   margin-bottom: 16px;
 }
-.size-price-detail{
+
+.size-price-detail {
   font-size: 46px;
   font-weight: 300;
 }
 
-.size-decimal-detail{
+.size-decimal-detail {
   font-size: 20px;
   font-weight: 300;
 }
 
-.color-boton-comprar{
+.color-boton-comprar {
   background-color: #3483FA;
   border-color: #3483FA;
   color: white;
 }
 
-.font-descripcion{
+.font-descripcion {
   font-size: 16px;
   font-weight: normal;
 }
 
-.size-title-descripcion{
+.size-title-descripcion {
   font-size: 28px;
 }
 
+.pl-32 {
+  padding-left: 32px;
+}
