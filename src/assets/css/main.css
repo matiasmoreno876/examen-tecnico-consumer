@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'mlfont';
+  src: url('https://http2.mlstatic.com/ui/navigation/4.1.4/navigation.eot');
+}
+
+body {
+  font-family: 'mlfont', arial !important;
+}
+
+.nav-bar {
+  height: 54px;
+}
+
+.navbar-color {
+  background-color: #FFE600;
+}
+
+.gris {
+  background-color: #EEEEEE;
+}
+
+.border-none{
+  border-style: none;
+}
+
+.size-find-button{
+  height: 20px;
+}
+
+.logo{
+  margin-left: 30px;
+}
+
+.imagenes{
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+}
+
+.list-cont .row:first-child .col-12 .border-top {
+  border-top: none !Important;
+}
+
+.container-img{
+  width: 180px;
+  height: 180px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  padding-left: 0;
+}
+.container-img img {
+  width:initial !important;
+  min-width: 80%;
+  max-width: 100%;
+  height: auto;
+}
+
+.size-imagen-detail{
+  width: 680px;
+  margin: auto;
+}
+
+.size-title{
+  font-size: 18px;
+}
+
+.size-title-detail{
+  font-size: 24px;
+}
+
+.size-price{
+  font-size: 24px;
+}
+
+.size-price-detail{
+  font-size: 46px;
+}
+
+.size-decimal{
+  font-size: 10px;
+}
+
+.size-decimal-detail{
+  font-size: 20px;
+}
+
+.font-city{
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.margin-side-main-big {
+  margin: 0 16px;
+}
+
+.margenes-row-detail{
+  margin: 32px 16px 16px 16px;
+}
+
+.col-general{
+  background-color: white;
+  border-radius: 4px;
+  margin-bottom:15px;
+}
+
+.margin-t-32{
+  margin-top: 32px
+}
+
+.categorias{
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.font-color-gris{
+  color: #999999;
+}
+
+.font-color-negro{
+  color: #333333;
+}
+
+.margenes-categorias{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.form-control:focus{
+  border-color: #cccccc;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+button:focus{
+  outline:0;
+}
+
+.cursor-pointer{
+  cursor:pointer;
+}
+
+.font-cantidad{
+  font-size: 14px;
+}
+
+.color-boton-comprar{
+  background-color: #3483FA;
+  border-color: #3483FA;
+  color: white;
+}
+
+.size-title-descripcion{
+  font-size: 28px;
+}
+
+.font-descripcion{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.margen-b-32{
+  margin-bottom: 32px;
+}
+
+.margen-l-32{
+  margin-left: 32px;
+}
+
+.margen-t-45 {
+  margin-top: 45px;
+}

@@ -2,8 +2,13 @@ export class Category {
   path = '';
 
   constructor(array: string[]) {
-    array.forEach(val => {
-      this.path += val + ' > ';
+    const length = array.length;
+    array.forEach((val, index) => {
+      if (index < length - 1) {
+        this.path += val + ' > ';
+      } else {
+        this.path += val;
+      }
     });
   }
 }
