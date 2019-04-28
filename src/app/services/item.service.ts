@@ -17,9 +17,9 @@ export class ItemService {
   constructor(private http: HttpClient) {
   }
 
-  getItems(): Observable<SearchResult> {
+  getItems(query: string): Observable<SearchResult> {
 
-    const url = `${this.baseUrl}/items?q=fiat uno 2002`;
+    const url = `${this.baseUrl}/items?q=${query}`;
     const httpOptions = {headers: new HttpHeaders().set('Accept', 'application/json')};
 
     return this.http.get<ListItemsMeliResponseDto>(url, httpOptions)
