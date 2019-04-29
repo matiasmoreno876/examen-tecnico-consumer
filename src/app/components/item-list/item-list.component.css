@@ -59,3 +59,10 @@
 .font-color-gray{
   color: #999999;
 }
+
+.size-imagen{
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+  margin: auto;
+}
