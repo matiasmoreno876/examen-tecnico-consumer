@@ -26,7 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Instalación y despliege
+## Instalación y despliegue
 Correr el siguiente comando `npm install` para realizar la instalación de las dependencias declaradas en el `package.json`
 
 Correr el siguente comando `npm start` para desplegar la Aplicación Angular.
