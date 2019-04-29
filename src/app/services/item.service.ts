@@ -7,8 +7,9 @@ import {ListItemsMeliResponseDto} from '../dtos/list-items-meli-response/list-it
 import {environment} from '../../environments/environment';
 import {SearchResult} from '../models/search-result';
 import {ServiceError} from './service-error';
-import {Item} from "../models/item";
-import {ItemWithDescriptionMeliResponseDto} from "../dtos/item-with-description-response/item-with-description-meli-response.dto";
+import {Item} from '../models/item';
+import {ItemWithDescriptionMeliResponseDto} from '../dtos/item-with-description-response/item-with-description-meli-response.dto';
+import {CategoryRepository} from '../repository/category.repository';
 
 @Injectable({
   providedIn: 'root'
@@ -17,7 +18,8 @@ export class ItemService {
 
   baseUrl = environment.baseUrl;
 
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient,
+              private categoryRepository: CategoryRepository) {
   }
 
   getItems(query: string): Observable<SearchResult> {
@@ -30,7 +32,9 @@ export class ItemService {
           if (response.statusCode === 204) {
             console.log(response);
           } else {
-            return ListItemsMeliResponseDto.convertToDomain(response);
+            const searchResult = ListItemsMeliResponseDto.convertToDomain(response);
+            this.categoryRepository.saveCategory(searchResult.category.path);
+            return searchResult;
           }
         }),
         catchError(
